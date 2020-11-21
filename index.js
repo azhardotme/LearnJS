@@ -31,3 +31,25 @@ document.write("<br/>");
 
 document.write(n1.toPrecision(3));
 document.write("<br/>");
+
+/*
+Arithmetic and Assignment operator in JavaScript
+*/
+var x = 5, y=2;
+
+document.write(x+y +"<br/>");
+document.write(x-y +"<br/>");
+document.write(x*y +"<br/>");
+document.write(x/y +"<br/>");
+document.write(x%y +"<br/>");
+
+var z = 4;
+z +=5;
+document.write(z +"<br/>");
+
+/*
+Relational & Logical operators in JavaScript
+*/
+
+var p = 4,t = 9;
+document.write(p>t +"<br/>");

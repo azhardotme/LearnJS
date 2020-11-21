@@ -1,3 +1,7 @@
+//Libray function of JS String
+document.write("<br/>");
+document.write("Here, Started the string.js file!....<br/>");
+
 document.write("Azharul "+ "Islam");
 
 document.write("<br/>")
@@ -39,6 +43,9 @@ var c2 = c.toUpperCase();
 
 document.write(c1 + "<br/>");
 document.write(c2 +"<br/>");
+
+
+
 
 
 
