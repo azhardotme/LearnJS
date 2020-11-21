@@ -18,12 +18,15 @@ x=9,y=4;
 document.write(x+y);
 document.write("<br/>");
 
+//Number method
 var n=3.50;
 n = parseInt(n);
 document.write(n);
 document.write("<br/>");
 
-n1 = 4.56;
+n1 = 4.563;
 n1 = parseFloat(n1);
 document.write(n1.toFixed(1));
+document.write("<br/>");
 
+document.write(n1.toPrecision(3));
