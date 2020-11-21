@@ -30,3 +30,4 @@ document.write(n1.toFixed(1));
 document.write("<br/>");
 
 document.write(n1.toPrecision(3));
+document.write("<br/>");
