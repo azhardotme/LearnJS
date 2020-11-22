@@ -1,3 +1,4 @@
+document.write("Started the index.js file.....<br/>");
 document.write("Hello JS Learner! <br/>");
 
 //JS Data Type

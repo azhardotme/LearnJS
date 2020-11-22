@@ -1,4 +1,5 @@
 //Use of for loop
+document.write("Started the loop.js file.....<br/>");
 for(var i=0; i<5; i++){
     document.write("Mymensingh <br/>");
 }
