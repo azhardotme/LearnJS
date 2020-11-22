@@ -51,5 +51,10 @@ document.write(z +"<br/>");
 Relational & Logical operators in JavaScript
 */
 
-var p = 4,t = 9;
+var p = 4,t = 5,num1 = 230, num2 = 40, num3 = 45, num4 = 32;
 document.write(p>t +"<br/>");
+document.write("<br/>")
+document.write(num1>num2 && num3>num4 +"<br/>");
+
+document.write("<br/>")
+document.write(num1>num2 || num3>num4 +"<br/>");
