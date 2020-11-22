@@ -30,5 +30,35 @@ while(i <=20){
 document.write("Sum: "+sum);
 document.write("<br/>");
 
+//do....while loop
 
+var i = 1;
+do{
+    document.write(" "+i);
+    i++;
+}
+while(i<=10);
+document.write("<br/>");
+
+//Example of break and continue
+
+
+for(var x=1; x<=100; x++){
+    if(x==10){
+        break;
+    }
+
+document.write(" "+ x);
+}
+document.write("<br/>");
+
+
+for(var x=1; x<=10; x++){
+    if(x==5){
+        continue;
+    }
+
+document.write(" "+ x);
+}
+document.write("<br/>");
 
