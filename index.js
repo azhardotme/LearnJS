@@ -53,8 +53,46 @@ Relational & Logical operators in JavaScript
 
 var p = 4,t = 5,num1 = 230, num2 = 40, num3 = 45, num4 = 32;
 document.write(p>t +"<br/>");
-document.write("<br/>")
+document.write("<br/>");
 document.write(num1>num2 && num3>num4 +"<br/>");
 
-document.write("<br/>")
+document.write("<br/>");
 document.write(num1>num2 || num3>num4 +"<br/>");
+document.write("<br/>");
+
+/*
+if...else
+else if
+*/
+// var letter = prompt("Enter a letter");
+// if(letter == '' |a| letter == 'e' || letter == 'i' ||letter == 'o'||letter == 'u')
+// {
+//     document.write("Vowel");
+// }
+// else{
+//     document.write("Consonant");
+// }
+
+document.write("<br/>");
+
+var num = 9;
+if(num%2==0)
+{
+    document.write("Even");
+}
+else{
+    document.write("Odd");
+}
+document.write("<br/>");
+
+if(num>0){
+    document.write("Positive Number");
+}
+else if(num<0){
+    document.write("Negative number");
+}
+else{
+    document.write("Zero");
+}
+
+document.write("<br/>");
