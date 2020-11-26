@@ -108,3 +108,5 @@ numbers.sort(function(x,y){
     return y-x;
 });
 document.write(numbers);
+document.write("<br>");
+document.write("<br>");

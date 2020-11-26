@@ -39,7 +39,7 @@ sub(12,2);
 mul(2,5);
 div(20,2);
 document.write("<br/>");
-
+document.write("<br>");
 
 
 
